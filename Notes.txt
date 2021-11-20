@@ -1,0 +1,10 @@
+1) Added coinGroup().
+2) Removed coin = 0; on line 57.
+3) Removed 
+   if(coin.overlap(boy)){
+      coin.destroyEach()
+      coin = coin+1;
+    }.
+4) Added coinGroup.overlap(boy,pluscoins).
+5) Added framecount in function spawn coins,added coin to coinGroup.
+6) Added function plusCoins.
